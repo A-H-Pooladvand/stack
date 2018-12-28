@@ -1,12 +1,12 @@
-#Stack
+# Stack
 
 <p>A simple implementation of stack in php.</p>
 
-##Install
+## Install
 
 `composer require ahp/stack`
 
-#usage
+# usage
 
 ```
 $stack = new Stack();
