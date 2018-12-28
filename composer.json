@@ -1,0 +1,21 @@
+{
+  "name": "ahp/stack",
+  "description": "A simple implementation of a stack in php.",
+  "type": "php library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amirhossein Pooladvand",
+      "email": "a.h.pooladvand@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stack\\": "src/"
+    }
+  }
+}
