@@ -1,7 +1,7 @@
 {
   "name": "ahp/stack",
   "description": "A simple implementation of a stack in php.",
-  "type": "php library",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
