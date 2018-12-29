@@ -23,6 +23,9 @@ $stack->peek();
 // Validates whether stack is empty.
 $stack->isEmpty();
 
+//Merges the given array into stack.
+$stack->merge($array)
+
 // Get all of the values inside the stack.
 $stack->get();
 ```

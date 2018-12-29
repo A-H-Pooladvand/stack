@@ -52,6 +52,16 @@ class Stack
     }
 
     /**
+     * Merges the given array into stack.
+     *
+     * @param array $array
+     */
+    public function merge(array $array): void
+    {
+        $this->stack = array_merge($this->stack, $array);
+    }
+
+    /**
      * Get all of the values inside the stack.
      *
      * @return array
