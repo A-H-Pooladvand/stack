@@ -5,12 +5,14 @@ namespace Stack;
 class Stack
 {
     /**
+     * The Stack.
+     *
      * @var array $stack
      */
     private $stack = [];
 
     /**
-     * Push an item to the stack
+     * Push an item to the stack.
      *
      * @param int|string|array|mixed $item
      */
@@ -69,5 +71,16 @@ class Stack
     public function get(): array
     {
         return $this->stack;
+    }
+
+    /**
+     * Clear stack entirely.
+     *
+     * @return void
+     */
+    public function fresh(): void
+    {
+        unset($this->stack);
+        $this->stack = [];
     }
 }
