@@ -28,4 +28,7 @@ $stack->merge($array)
 
 // Get all of the values inside the stack.
 $stack->get();
+
+// Clear stack entirely.
+$stack->fresh();
 ```
